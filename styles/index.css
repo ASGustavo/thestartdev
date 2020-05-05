@@ -39,6 +39,8 @@ body {
 
 #subtitle {
     color: #fff;
+    margin-top: -10px;
+    margin-bottom: 50px;
     font-weight: lighter;
     text-align: center;
 }
