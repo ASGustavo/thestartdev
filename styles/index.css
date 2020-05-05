@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html, body {
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+body {
+    background-color: #000;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+#title {
+    color: #fff;
+    font-weight: bold;
+}
+
+#subtitle {
+    color: #fff;
+    font-weight: lighter;
+}
