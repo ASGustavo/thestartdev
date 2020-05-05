@@ -27,6 +27,16 @@ body {
     font-weight: bold;
 }
 
+#title a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#title a:hover {
+    color: #ccc;
+    transition: 0.3s color;
+}
+
 #subtitle {
     color: #fff;
     font-weight: lighter;
