@@ -1,22 +1,124 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/index.css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000" />
 
-    <title>@thestartdev</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="shortcut icon" href="assets/images/favicon.png" />
+
+    <title>TheStartDev - Acreditamos que todos podem aprender a programar.</title>
 </head>
 
-<body>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-    <div id="root">
-        <h1 id="title"><a href="https://www.instagram.com/thestartdev/" target="_blank">@TheStartDev</a></h1>
-        <h2 id="subtitle">Acreditamos que todos podem aprender a programar.</h2>
-        <img src="assets/coding.svg" alt="Coding" width="500" />
+    html,
+    body {
+        height: 100% !important;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: Roboto;
+        color: #696969;
+    }
+
+    body {
+        background-color: rgb(250, 250, 250);
+    }
+
+    h1 {
+        font-size: 16pt;
+        font-weight: bold;
+    }
+
+    p>strong {
+        font-size: 13pt;
+    }
+
+    p.caption {
+        font-size: 10pt;
+    }
+
+    img.link {
+        cursor: pointer;
+    }
+
+    img.link:hover {
+        opacity: 0.7;
+    }
+
+    .container-fluid {
+        height: 100%;
+    }
+</style>
+
+<body>
+    <div class="container-fluid d-flex align-items-center justify-content-center">
+        <div class="row d-flex align-items-center justify-content-center">
+            <div class="col-sm-3 col-xs-12 mb-3">
+                <div class="card">
+                    <div class="card-body bg-white shadow-sm rounded">
+                        <div class="row d-flex flex-column justify-content-center align-items-center">
+                            <img src="assets/images/logo.png" alt="TheStartDev Logo" class="rounded-circle mb-3"
+                                width="100">
+                            <p class="text-center"><strong class="text-dark">TheStartDev</strong></p>
+                            <p class="text-center caption">Acreditamos que todos podem aprender a programar.</p>
+                        </div>
+
+                        <div class="row mt-3 d-flex justify-content-center align-items-center">
+                            <a href="https://www.instagram.com/thestartdev/" target="_blank">
+                                <img src="assets/svgs/instagram.svg" class="mx-1 link" width="25" alt="Instagram"
+                                    data-toggle="tooltip" data-placement="top" title="Instagram">
+                            </a>
+
+                            <a href="thestartdev.com">
+                                <img src="assets/svgs/web.svg" class="mx-1 link" width="25" alt="Site"
+                                    data-toggle="tooltip" data-placement="top" title="Site">
+                            </a>
+
+                            <a href="https://github.com/ASGustavo/thestartdev" target="_blank">
+                                <img src="assets/svgs/github.svg" class="mx-1 link" width="25" alt="Github"
+                                    data-toggle="tooltip" data-placement="top" title="Github">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-xs-12">
+                <h1>Nossa iniciativa</h1>
+                <p>Nós acreditamos, que a programação deve ser acessível a todos, foi pensando nisso que criamos a iniciativa <strong>thestartdev</strong>.</p>
+                <p>Produziremos conteúdos sobre programação, organizados por nível de aprendizado <span class="text-muted">(do mais simples ao mais avançado)</span>, para ajudar novos programadores ou os que buscam se aperfeiçoar.</p>
+                <p>Todo conteúdo publicado será totalmente gratuito.</p>
+            </div>
+        </div>
     </div>
 
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip({
+                delay: {
+                    "show": 100,
+                    "hide": 0
+                },
+                animation: true
+            })
+        })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
